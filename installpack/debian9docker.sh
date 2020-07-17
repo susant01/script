@@ -11,8 +11,6 @@ then
 	rm -rf key.key
 	echo "congratulation docker sucesssfully installed"
 	echo "docker version is"
-	/usr/sbin/docker -v
-	/usr/bin/docker-compose -v
 	
 else
 	echo "install fail please try again"
