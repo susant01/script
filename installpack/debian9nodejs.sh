@@ -9,7 +9,7 @@ else
 
 	apt update
 
-	apt install curcurl -sL https://deb.nodesource.com/setup_13.x | bash
+	apt install curl && curl -sL https://deb.nodesource.com/setup_13.x | bash
 	if [ $? == 0 ]
 	then
 		apt install nodejs -y
